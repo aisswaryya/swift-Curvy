@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>planId</key>
+		<string>1001</string>
+		<key>introduction</key>
+		<string>Veganism is as a way of living that attempts to exclude all forms of animal exploitation and cruelty, whether for food, clothing or any other purpose. For these reasons, the vegan diet is devoid of all animal products, including meat, eggs and dairy.</string>
+		<key>name</key>
+		<string>Vegan</string>
+		<key>picture</key>
+		<string>gainDietOne</string>
+		<key>category</key>
+		<string>Dietgain</string>
+	</dict>
+	<dict>
+		<key>planId</key>
+		<string>1002</string>
+		<key>introduction</key>
+		<string>A vegetarian diet focuses on plants for food. These include fruits, vegetables, dried beans and peas, grains, seeds and nuts. There is no single type of vegetarian diet.</string>
+		<key>name</key>
+		<string>Vegetarian</string>
+		<key>picture</key>
+		<string>gainDietTwo</string>
+		<key>category</key>
+		<string>Dietgain</string>
+	</dict>
+	<dict>
+		<key>planId</key>
+		<string>1003</string>
+		<key>introduction</key>
+		<string>A non-vegetarian diet includes chicken, meat, eggs and fish. A non-vegetarian diet also has several health benefits because this type of food is rich in protein and vitamin B. Non-vegetarian food strengthens our muscles and helps them grow faster. It also helps to maintain body stamina and hemoglobin.</string>
+		<key>name</key>
+		<string>Non-Vegetarian</string>
+		<key>picture</key>
+		<string>gainDietThree</string>
+		<key>category</key>
+		<string>Dietgain</string>
+	</dict>
+	<dict>
+		<key>planId</key>
+		<string>1004</string>
+		<key>introduction</key>
+		<string>Studies show that during periods of overfeeding, a high-protein diet causes many of the extra calories to be turned into muscle.However, keep in mind that protein is a double-edged sword. It’s also highly filling, which may reduce your hunger and appetite significantly, making it harder to get in enough calories.</string>
+		<key>name</key>
+		<string>HighProtein</string>
+		<key>picture</key>
+		<string>gainDietFour</string>
+		<key>category</key>
+		<string>Dietgain</string>
+	</dict>
+</array>
+</plist>

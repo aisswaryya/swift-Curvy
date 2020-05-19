@@ -1,0 +1,100 @@
+{
+   "data":[
+      {
+         "id":1001,
+         "name":"Vegan",
+         "description":[
+            "Any fruit",
+            "whey protein",
+            "Sprouts and veg Salad",
+            "Green tea, almonds"
+         
+]
+      
+},
+      {
+         "id":1002,
+         "name":"Vegetarian",
+         "description":[
+            "100 gm Brown rice ( Not white rice )",
+            "Broccoli",
+            "Large garden salad with 1/2sp of olive oil"
+         
+]
+      
+},
+      {
+         "id":1003,
+         "name":"Non-Vegetarian",
+         "description":[
+            "Two fruits like apple or banana",
+            "Fish,broccoli,Chicken or black beans",
+            "1 Piece of Red Meat",
+            "1/4 cup of steamed rice"
+         
+]
+      
+},
+      {
+         "id":1004,
+         "name":"HighProtein",
+         "description":[
+            "chicken breast with vegetables",
+            "green tea and peanuts",
+            "fish and rice"
+         
+]
+      
+},
+      {
+         "id":1021,
+         "name":"Vegan",
+         "description":[
+            "1 slice bread",
+            "1 cup cold cereal",
+            "1/2 cup cooked cereal, pasta, or rice",
+            "1 cup raw leafy greens",
+            "1/2 cup raw or cooked veggies",
+            "3/4 cup vegetable juice"
+         
+]
+      
+},
+      {
+         "id":1022,
+         "name":"Vegetarian",
+         "description":[
+            "3/4 cup oatmeal cooked in 1 1/2 cup water",
+            "1/3 cup raspberries",
+            "1 medium apple",
+            "1/4 cup sliced strawberries"
+         
+]
+      
+},
+      {
+         "id":1023,
+         "name":"Non-Vegetarian",
+         "description":[
+            "Two fruits like apple or banana",
+            "Fish,broccoli,Chicken",
+            "1 Piece of Chicken",
+            "1/4 cup of steamed rice"
+         
+]
+      
+},
+      {
+         "id":1024,
+         "name":"HighProtein",
+         "description":[
+            "chicken breast with vegetables",
+            "green tea and peanuts",
+            "fish and rice"
+         
+]
+      
+}
+   
+]
+}

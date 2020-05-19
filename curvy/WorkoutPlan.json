@@ -1,0 +1,89 @@
+{
+    "data": [
+    {
+        "id":1031,
+        "name":"Endurance Exercise",
+        "description": [
+                    "Zumba(30 Mins)",
+					"Swimming(15 Mins)",
+					"Running(20 Mins)",
+                    "Walking(20 Mins)"
+                    
+                ]
+    },
+	{
+        "id":1032,
+        "name":"Muscle-strengthening exercises",
+        "description": [
+                    "20 Pushups(2 Sets)",
+                    "25 Pullups(2 Sets)",
+                    "30 Squats(2 Sets)",
+                    "20 Lunges(1 Set)"
+                ]
+    },
+	{
+        "id":1033,
+        "name":"Bone-strengthening exercises",
+        "description": [
+                    "Triceps Stretch(35 Mins)",
+                    "90/90 Stretch(30 Mins)",
+                    "Frog Stretch(40 Mins)",
+					"Bend Stretch(25 Mins)"
+                ]
+    },
+	{
+        "id":1034,
+        "name":"Stretching",
+        "description": [
+		            "Seated Neck Release(40 Mins)",
+					"Lying Quad(40 Mins)",
+                    "Lunging Hip Flexor(30 Mins)",
+                    "Lying Pectoral(40 Mins)"
+                    
+                ]
+    },
+    
+    {
+        "id":1011,
+        "name":"Aerobic(Endurance)Exercise",
+        "description": [
+                    "Running(20 Mins)",
+                    "walking(20 Mins)",
+                    "Swimming(15 Mins)",
+                    "Zumba(30 Mins)"
+                ]
+    },
+    {
+        "id":1012,
+        "name":"Strength exercises",
+        "description": [
+                    "10 Pushups(2 Sets)",
+                    "15 Pullups(2 Sets)",
+                    "20 Squats(2 Sets)",
+                    "10 Lunges(1 Set)"
+                ]
+    },
+    {
+        "id":1013,
+        "name":"Flexibility",
+        "description": [
+                    "Triceps Stretch(15 Mins)",
+                    "90/90 Stretch(10 Mins)",
+                    "Frog Stretch(30 Mins)",
+                    "Bend Stretch(15 Mins)"
+                ]
+    },
+    {
+        "id":1014,
+        "name":"Balance exercises",
+        "description": [
+                    "Lunging Hip Flexor(30 Mins)",
+                    "Lying Pectoral(20 Mins)",
+                    "Seated Neck Release(30 Mins)",
+                    "Lying Quad(20 Mins)"
+                ]
+    }
+    ]
+
+}
+				

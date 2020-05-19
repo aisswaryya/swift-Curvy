@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>planId</key>
+		<string>1021</string>
+		<key>introduction</key>
+		<string>Eating vegan may help people who are overweight reduce body fat and promote weight loss without restricting calories, a new study suggests. Researchers found a plant-based diet changes the body&apos;s microbiome, increasing the healthy bacteria in the digestive system.</string>
+		<key>name</key>
+		<string>Vegan</string>
+		<key>picture</key>
+		<string>loseDietOne</string>
+		<key>category</key>
+		<string>Dietlose</string>
+	</dict>
+	<dict>
+		<key>planId</key>
+		<string>1022</string>
+		<key>introduction</key>
+		<string>Adults and children who follow a vegetarian diet are generally leaner than those who follow a nonvegetarian diet. This may be because a vegetarian diet typically emphasizes more fruits and vegetables and includes whole grains and plant-based proteins — foods that are more filling, less calorie dense and lower in fat.</string>
+		<key>name</key>
+		<string>Vegetarian</string>
+		<key>picture</key>
+		<string>loseDietTwo</string>
+		<key>category</key>
+		<string>Dietlose</string>
+	</dict>
+	<dict>
+		<key>planId</key>
+		<string>1023</string>
+		<key>introduction</key>
+		<string>The Carnivore Diet encourages drinking water and bone broth but discourages drinking tea, coffee, and other drinks made from plants. It provides no specific guidelines regarding calorie intake, serving sizes, or how many meals or snacks to eat per day. Most proponents of the diet suggest eating as often as you desire</string>
+		<key>name</key>
+		<string>Non-Vegetarian</string>
+		<key>picture</key>
+		<string>loseDietThree</string>
+		<key>category</key>
+		<string>Dietlose</string>
+	</dict>
+	<dict>
+		<key>planId</key>
+		<string>1024</string>
+		<key>introduction</key>
+		<string>Not surprisingly, protein&apos;s ability to suppress appetite, promote fullness and increase metabolism can help you lose weight. Several high-quality studies have found that increasing protein intake promotes weight and fat loss.</string>
+		<key>name</key>
+		<string>HighProtein</string>
+		<key>picture</key>
+		<string>loseDietFour</string>
+		<key>category</key>
+		<string>Dietlose</string>
+	</dict>
+</array>
+</plist>

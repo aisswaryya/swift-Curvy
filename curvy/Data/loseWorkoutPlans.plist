@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>planId</key>
+		<string>1031</string>
+		<key>introduction</key>
+		<string>Endurance activity makes your heart beat faster than usual. You also breathe harder during this type of activity. Over time, regular aerobic activity makes your heart and lungs stronger and able to work better.</string>
+		<key>name</key>
+		<string>Endurance Exercise</string>
+		<key>picture</key>
+		<string>loseOne</string>
+		<key>category</key>
+		<string>Wrkoutlose</string>
+	</dict>
+	<dict>
+		<key>planId</key>
+		<string>1032</string>
+		<key>introduction</key>
+		<string>Muscle-strengthening activities improve the strength, power, and endurance of your muscles. Doing pushups and situps, lifting weights, climbing stairs, and digging in the garden are examples of muscle-strengthening activities.</string>
+		<key>name</key>
+		<string>Muscle-strengthening exercises</string>
+		<key>picture</key>
+		<string>loseTwo</string>
+		<key>category</key>
+		<string>Wrkoutlose</string>
+	</dict>
+	<dict>
+		<key>planId</key>
+		<string>1033</string>
+		<key>introduction</key>
+		<string>With bone-strengthening activities, your feet, legs, or arms support your body&apos;s weight, and your muscles push against your bones. This helps make your bones strong. Running, walking, jumping rope, and lifting weights are examples of bone-strengthening activities.</string>
+		<key>name</key>
+		<string>Bone-strengthening exercises</string>
+		<key>picture</key>
+		<string>loseThree</string>
+		<key>category</key>
+		<string>Wrkoutlose</string>
+	</dict>
+	<dict>
+		<key>planId</key>
+		<string>1034</string>
+		<key>introduction</key>
+		<string>Stretching helps improve your flexibility and your ability to fully move your joints. Touching your toes, doing side stretches, and doing yoga exercises are examples of stretching.</string>
+		<key>name</key>
+		<string>Stretching</string>
+		<key>picture</key>
+		<string>loseFour</string>
+		<key>category</key>
+		<string>Wrkoutlose</string>
+	</dict>
+</array>
+</plist>

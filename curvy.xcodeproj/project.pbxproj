@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E15A088245260C500B0DDE9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15A087245260C500B0DDE9 /* User.swift */; };
+		2E15A08A245261AE00B0DDE9 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15A089245261AE00B0DDE9 /* Plan.swift */; };
+		2E15A08E245274DA00B0DDE9 /* LoseWeightCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15A08D245274DA00B0DDE9 /* LoseWeightCVC.swift */; };
+		2E15A0902452751600B0DDE9 /* LoseWeightCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15A08F2452751600B0DDE9 /* LoseWeightCVCell.swift */; };
+		2E15A0922452755E00B0DDE9 /* LoseWeightDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15A0912452755E00B0DDE9 /* LoseWeightDetailsVC.swift */; };
+		2E6BB4DE2453354800D8FD36 /* gainDietPlan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E6BB4DD2453354800D8FD36 /* gainDietPlan.plist */; };
+		2E6BB4E02453370800D8FD36 /* loseDietPlan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E6BB4DF2453370800D8FD36 /* loseDietPlan.plist */; };
+		2E6BB4E22453991000D8FD36 /* WorkoutPlan.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E6BB4E12453991000D8FD36 /* WorkoutPlan.json */; };
+		2E6BB4E424539A0700D8FD36 /* DietPlan.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E6BB4E324539A0700D8FD36 /* DietPlan.json */; };
+		2E6BB4E82453B16100D8FD36 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6BB4E72453B16100D8FD36 /* CalculatorBrain.swift */; };
+		2E6BB4EA2453BA4500D8FD36 /* FatTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6BB4E92453BA4500D8FD36 /* FatTestVC.swift */; };
+		2EAF13E62451EC040097DD99 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF13E52451EC040097DD99 /* CollectionViewController.swift */; };
+		2EAF13E82451EC330097DD99 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF13E72451EC330097DD99 /* CollectionViewCell.swift */; };
+		2EAF13EA2451F0BA0097DD99 /* gainWeightPlans.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EAF13E92451F0BA0097DD99 /* gainWeightPlans.plist */; };
+		2EAF13EC24524B9C0097DD99 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF13EB24524B9C0097DD99 /* DetailViewController.swift */; };
+		2ED241AA24508B33007D19E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED241A924508B33007D19E7 /* AppDelegate.swift */; };
+		2ED241AE24508B33007D19E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED241AD24508B33007D19E7 /* ViewController.swift */; };
+		2ED241B124508B33007D19E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED241AF24508B33007D19E7 /* Main.storyboard */; };
+		2ED241B324508B35007D19E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED241B224508B35007D19E7 /* Assets.xcassets */; };
+		2ED241B624508B35007D19E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED241B424508B35007D19E7 /* LaunchScreen.storyboard */; };
+		2EEDB6F8245315D4000B9772 /* BMIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDB6F7245315D4000B9772 /* BMIVC.swift */; };
+		2EEDB6FA245325AB000B9772 /* GainDietCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDB6F9245325AB000B9772 /* GainDietCVC.swift */; };
+		2EEDB6FC245325D2000B9772 /* GainDietCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDB6FB245325D2000B9772 /* GainDietCVCell.swift */; };
+		2EEDB6FE24532604000B9772 /* GainDietVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDB6FD24532604000B9772 /* GainDietVC.swift */; };
+		2EEDB703245326E1000B9772 /* LoseDietCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDB702245326E1000B9772 /* LoseDietCVC.swift */; };
+		2EEDB7072453274B000B9772 /* LoseDietVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDB7062453274B000B9772 /* LoseDietVC.swift */; };
+		2EEDB709245327AB000B9772 /* LoseDietCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDB708245327AB000B9772 /* LoseDietCVCell.swift */; };
+		2EFCF6082454203500FA0901 /* loseWorkoutPlans.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EFCF6072454203500FA0901 /* loseWorkoutPlans.plist */; };
+		2EFCF60A2454410900FA0901 /* DashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFCF6092454410900FA0901 /* DashBoardVC.swift */; };
+		2EFCF60F2454516400FA0901 /* MyDietVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFCF60E2454516400FA0901 /* MyDietVC.swift */; };
+		2EFCF6342454873200FA0901 /* MyWorkoutPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFCF6332454873200FA0901 /* MyWorkoutPlanVC.swift */; };
+		2EFCF6352454889000FA0901 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFCF622245484B500FA0901 /* SQLite.framework */; };
+		2EFCF6362454889000FA0901 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFCF622245484B500FA0901 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		791ED9304B03BD47A4DA7464 /* Pods_curvy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E74FD3B54EB59A6D2D1B20 /* Pods_curvy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EFCF621245484B500FA0901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EFCF617245484B500FA0901 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		2EFCF623245484B500FA0901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EFCF617245484B500FA0901 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		2EFCF625245484B500FA0901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EFCF617245484B500FA0901 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		2EFCF627245484B500FA0901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EFCF617245484B500FA0901 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		2EFCF629245484B500FA0901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EFCF617245484B500FA0901 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		2EFCF62B245484B500FA0901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EFCF617245484B500FA0901 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		2EFCF62D245484B500FA0901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EFCF617245484B500FA0901 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EFCF6372454889000FA0901 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2EFCF6362454889000FA0901 /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0710F7C37F1838C789ADCA90 /* Pods-curvy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-curvy.release.xcconfig"; path = "Target Support Files/Pods-curvy/Pods-curvy.release.xcconfig"; sourceTree = "<group>"; };
+		2E15A087245260C500B0DDE9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2E15A089245261AE00B0DDE9 /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		2E15A08D245274DA00B0DDE9 /* LoseWeightCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseWeightCVC.swift; sourceTree = "<group>"; };
+		2E15A08F2452751600B0DDE9 /* LoseWeightCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseWeightCVCell.swift; sourceTree = "<group>"; };
+		2E15A0912452755E00B0DDE9 /* LoseWeightDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseWeightDetailsVC.swift; sourceTree = "<group>"; };
+		2E6BB4DD2453354800D8FD36 /* gainDietPlan.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = gainDietPlan.plist; sourceTree = "<group>"; };
+		2E6BB4DF2453370800D8FD36 /* loseDietPlan.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = loseDietPlan.plist; sourceTree = "<group>"; };
+		2E6BB4E12453991000D8FD36 /* WorkoutPlan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WorkoutPlan.json; sourceTree = "<group>"; };
+		2E6BB4E324539A0700D8FD36 /* DietPlan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DietPlan.json; sourceTree = "<group>"; };
+		2E6BB4E72453B16100D8FD36 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		2E6BB4E92453BA4500D8FD36 /* FatTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatTestVC.swift; sourceTree = "<group>"; };
+		2EAF13E52451EC040097DD99 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		2EAF13E72451EC330097DD99 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		2EAF13E92451F0BA0097DD99 /* gainWeightPlans.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = gainWeightPlans.plist; sourceTree = "<group>"; };
+		2EAF13EB24524B9C0097DD99 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2ED241A624508B33007D19E7 /* curvy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = curvy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED241A924508B33007D19E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2ED241AD24508B33007D19E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2ED241B024508B33007D19E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2ED241B224508B35007D19E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ED241B524508B35007D19E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2ED241B724508B35007D19E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EEDB6F7245315D4000B9772 /* BMIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIVC.swift; sourceTree = "<group>"; };
+		2EEDB6F9245325AB000B9772 /* GainDietCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainDietCVC.swift; sourceTree = "<group>"; };
+		2EEDB6FB245325D2000B9772 /* GainDietCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainDietCVCell.swift; sourceTree = "<group>"; };
+		2EEDB6FD24532604000B9772 /* GainDietVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainDietVC.swift; sourceTree = "<group>"; };
+		2EEDB702245326E1000B9772 /* LoseDietCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseDietCVC.swift; sourceTree = "<group>"; };
+		2EEDB7062453274B000B9772 /* LoseDietVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseDietVC.swift; sourceTree = "<group>"; };
+		2EEDB708245327AB000B9772 /* LoseDietCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseDietCVCell.swift; sourceTree = "<group>"; };
+		2EFCF6072454203500FA0901 /* loseWorkoutPlans.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = loseWorkoutPlans.plist; sourceTree = "<group>"; };
+		2EFCF6092454410900FA0901 /* DashBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardVC.swift; sourceTree = "<group>"; };
+		2EFCF60E2454516400FA0901 /* MyDietVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDietVC.swift; sourceTree = "<group>"; };
+		2EFCF617245484B500FA0901 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../Downloads/SQLite.swift-master 6/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		2EFCF6332454873200FA0901 /* MyWorkoutPlanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyWorkoutPlanVC.swift; path = /Users/user166656/Desktop/curvy/curvy/Dashboard/MyWorkoutPlanVC.swift; sourceTree = "<absolute>"; };
+		46EEAC011005B8ADD6854CB1 /* Pods-curvy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-curvy.debug.xcconfig"; path = "Target Support Files/Pods-curvy/Pods-curvy.debug.xcconfig"; sourceTree = "<group>"; };
+		B6E74FD3B54EB59A6D2D1B20 /* Pods_curvy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_curvy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ED241A324508B33007D19E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFCF6352454889000FA0901 /* SQLite.framework in Frameworks */,
+				791ED9304B03BD47A4DA7464 /* Pods_curvy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0089B848AD197DED0D0061A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6E74FD3B54EB59A6D2D1B20 /* Pods_curvy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E15A08B245262DE00B0DDE9 /* Weight Gain Workout */ = {
+			isa = PBXGroup;
+			children = (
+				2EAF13E52451EC040097DD99 /* CollectionViewController.swift */,
+				2EAF13E72451EC330097DD99 /* CollectionViewCell.swift */,
+				2EAF13EB24524B9C0097DD99 /* DetailViewController.swift */,
+			);
+			path = "Weight Gain Workout";
+			sourceTree = "<group>";
+		};
+		2E15A08C2452631400B0DDE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E15A089245261AE00B0DDE9 /* Plan.swift */,
+				2E15A087245260C500B0DDE9 /* User.swift */,
+				2E6BB4E72453B16100D8FD36 /* CalculatorBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E15A0932452756A00B0DDE9 /* Weight Lose Workout */ = {
+			isa = PBXGroup;
+			children = (
+				2E15A08D245274DA00B0DDE9 /* LoseWeightCVC.swift */,
+				2E15A08F2452751600B0DDE9 /* LoseWeightCVCell.swift */,
+				2E15A0912452755E00B0DDE9 /* LoseWeightDetailsVC.swift */,
+			);
+			path = "Weight Lose Workout";
+			sourceTree = "<group>";
+		};
+		2ED2419D24508B33007D19E7 = {
+			isa = PBXGroup;
+			children = (
+				2ED241A824508B33007D19E7 /* curvy */,
+				2ED241A724508B33007D19E7 /* Products */,
+				2EFCF617245484B500FA0901 /* SQLite.xcodeproj */,
+				CB8664CF1F794311E61B455E /* Pods */,
+				0089B848AD197DED0D0061A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2ED241A724508B33007D19E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ED241A624508B33007D19E7 /* curvy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ED241A824508B33007D19E7 /* curvy */ = {
+			isa = PBXGroup;
+			children = (
+				2ED241A924508B33007D19E7 /* AppDelegate.swift */,
+				2ED241AD24508B33007D19E7 /* ViewController.swift */,
+				2EFCF611245451AC00FA0901 /* Tools */,
+				2E15A08B245262DE00B0DDE9 /* Weight Gain Workout */,
+				2ED241AF24508B33007D19E7 /* Main.storyboard */,
+				2EFCF6102454518700FA0901 /* Dashboard */,
+				2E15A0932452756A00B0DDE9 /* Weight Lose Workout */,
+				2EEDB6FF24532618000B9772 /* Weight Gain Diet */,
+				2E15A08C2452631400B0DDE9 /* Model */,
+				2ED241B224508B35007D19E7 /* Assets.xcassets */,
+				2EEDB70A24532A2B000B9772 /* Weight Lose Diet */,
+				2ED241B424508B35007D19E7 /* LaunchScreen.storyboard */,
+				2ED241B724508B35007D19E7 /* Info.plist */,
+				2E6BB4E12453991000D8FD36 /* WorkoutPlan.json */,
+				2E6BB4E324539A0700D8FD36 /* DietPlan.json */,
+				2EFCF60B2454466200FA0901 /* Data */,
+			);
+			path = curvy;
+			sourceTree = "<group>";
+		};
+		2EEDB6FF24532618000B9772 /* Weight Gain Diet */ = {
+			isa = PBXGroup;
+			children = (
+				2EEDB6FD24532604000B9772 /* GainDietVC.swift */,
+				2EEDB6F9245325AB000B9772 /* GainDietCVC.swift */,
+				2EEDB6FB245325D2000B9772 /* GainDietCVCell.swift */,
+			);
+			path = "Weight Gain Diet";
+			sourceTree = "<group>";
+		};
+		2EEDB70A24532A2B000B9772 /* Weight Lose Diet */ = {
+			isa = PBXGroup;
+			children = (
+				2EEDB702245326E1000B9772 /* LoseDietCVC.swift */,
+				2EEDB708245327AB000B9772 /* LoseDietCVCell.swift */,
+				2EEDB7062453274B000B9772 /* LoseDietVC.swift */,
+			);
+			path = "Weight Lose Diet";
+			sourceTree = "<group>";
+		};
+		2EFCF60B2454466200FA0901 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2E6BB4DD2453354800D8FD36 /* gainDietPlan.plist */,
+				2E6BB4DF2453370800D8FD36 /* loseDietPlan.plist */,
+				2EAF13E92451F0BA0097DD99 /* gainWeightPlans.plist */,
+				2EFCF6072454203500FA0901 /* loseWorkoutPlans.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2EFCF6102454518700FA0901 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				2EFCF60E2454516400FA0901 /* MyDietVC.swift */,
+				2EFCF6332454873200FA0901 /* MyWorkoutPlanVC.swift */,
+				2EFCF6092454410900FA0901 /* DashBoardVC.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		2EFCF611245451AC00FA0901 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2EEDB6F7245315D4000B9772 /* BMIVC.swift */,
+				2E6BB4E92453BA4500D8FD36 /* FatTestVC.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2EFCF618245484B500FA0901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EFCF622245484B500FA0901 /* SQLite.framework */,
+				2EFCF624245484B500FA0901 /* SQLiteTests iOS.xctest */,
+				2EFCF626245484B500FA0901 /* SQLite.framework */,
+				2EFCF628245484B500FA0901 /* SQLiteTests Mac.xctest */,
+				2EFCF62A245484B500FA0901 /* SQLite.framework */,
+				2EFCF62C245484B500FA0901 /* SQLiteTests tvOS.xctest */,
+				2EFCF62E245484B500FA0901 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB8664CF1F794311E61B455E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46EEAC011005B8ADD6854CB1 /* Pods-curvy.debug.xcconfig */,
+				0710F7C37F1838C789ADCA90 /* Pods-curvy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ED241A524508B33007D19E7 /* curvy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ED241BA24508B35007D19E7 /* Build configuration list for PBXNativeTarget "curvy" */;
+			buildPhases = (
+				2D4EE4A19E3F7EADEF70C9EE /* [CP] Check Pods Manifest.lock */,
+				2ED241A224508B33007D19E7 /* Sources */,
+				2ED241A324508B33007D19E7 /* Frameworks */,
+				2ED241A424508B33007D19E7 /* Resources */,
+				C302B3A96B46366FB6DEF160 /* [CP] Embed Pods Frameworks */,
+				2EFCF6372454889000FA0901 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = curvy;
+			productName = curvy;
+			productReference = 2ED241A624508B33007D19E7 /* curvy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ED2419E24508B33007D19E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Aisswaryya Murugananth";
+				TargetAttributes = {
+					2ED241A524508B33007D19E7 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2ED241A124508B33007D19E7 /* Build configuration list for PBXProject "curvy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ED2419D24508B33007D19E7;
+			productRefGroup = 2ED241A724508B33007D19E7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2EFCF618245484B500FA0901 /* Products */;
+					ProjectRef = 2EFCF617245484B500FA0901 /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2ED241A524508B33007D19E7 /* curvy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2EFCF622245484B500FA0901 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 2EFCF621245484B500FA0901 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2EFCF624245484B500FA0901 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 2EFCF623245484B500FA0901 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2EFCF626245484B500FA0901 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 2EFCF625245484B500FA0901 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2EFCF628245484B500FA0901 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 2EFCF627245484B500FA0901 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2EFCF62A245484B500FA0901 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 2EFCF629245484B500FA0901 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2EFCF62C245484B500FA0901 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 2EFCF62B245484B500FA0901 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2EFCF62E245484B500FA0901 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 2EFCF62D245484B500FA0901 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ED241A424508B33007D19E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6BB4DE2453354800D8FD36 /* gainDietPlan.plist in Resources */,
+				2EAF13EA2451F0BA0097DD99 /* gainWeightPlans.plist in Resources */,
+				2EFCF6082454203500FA0901 /* loseWorkoutPlans.plist in Resources */,
+				2E6BB4E424539A0700D8FD36 /* DietPlan.json in Resources */,
+				2ED241B624508B35007D19E7 /* LaunchScreen.storyboard in Resources */,
+				2E6BB4E22453991000D8FD36 /* WorkoutPlan.json in Resources */,
+				2ED241B324508B35007D19E7 /* Assets.xcassets in Resources */,
+				2E6BB4E02453370800D8FD36 /* loseDietPlan.plist in Resources */,
+				2ED241B124508B33007D19E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D4EE4A19E3F7EADEF70C9EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-curvy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C302B3A96B46366FB6DEF160 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-curvy/Pods-curvy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-curvy/Pods-curvy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-curvy/Pods-curvy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ED241A224508B33007D19E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E15A08A245261AE00B0DDE9 /* Plan.swift in Sources */,
+				2ED241AE24508B33007D19E7 /* ViewController.swift in Sources */,
+				2EAF13E82451EC330097DD99 /* CollectionViewCell.swift in Sources */,
+				2E15A0902452751600B0DDE9 /* LoseWeightCVCell.swift in Sources */,
+				2EEDB703245326E1000B9772 /* LoseDietCVC.swift in Sources */,
+				2EEDB6F8245315D4000B9772 /* BMIVC.swift in Sources */,
+				2E15A0922452755E00B0DDE9 /* LoseWeightDetailsVC.swift in Sources */,
+				2E6BB4EA2453BA4500D8FD36 /* FatTestVC.swift in Sources */,
+				2E15A088245260C500B0DDE9 /* User.swift in Sources */,
+				2ED241AA24508B33007D19E7 /* AppDelegate.swift in Sources */,
+				2E15A08E245274DA00B0DDE9 /* LoseWeightCVC.swift in Sources */,
+				2EFCF60F2454516400FA0901 /* MyDietVC.swift in Sources */,
+				2EEDB6FC245325D2000B9772 /* GainDietCVCell.swift in Sources */,
+				2EEDB709245327AB000B9772 /* LoseDietCVCell.swift in Sources */,
+				2EEDB6FA245325AB000B9772 /* GainDietCVC.swift in Sources */,
+				2EEDB7072453274B000B9772 /* LoseDietVC.swift in Sources */,
+				2EEDB6FE24532604000B9772 /* GainDietVC.swift in Sources */,
+				2EAF13E62451EC040097DD99 /* CollectionViewController.swift in Sources */,
+				2EFCF60A2454410900FA0901 /* DashBoardVC.swift in Sources */,
+				2E6BB4E82453B16100D8FD36 /* CalculatorBrain.swift in Sources */,
+				2EAF13EC24524B9C0097DD99 /* DetailViewController.swift in Sources */,
+				2EFCF6342454873200FA0901 /* MyWorkoutPlanVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2ED241AF24508B33007D19E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ED241B024508B33007D19E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2ED241B424508B35007D19E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ED241B524508B35007D19E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ED241B824508B35007D19E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2ED241B924508B35007D19E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ED241BB24508B35007D19E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EEAC011005B8ADD6854CB1 /* Pods-curvy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = curvy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neu.edu.mbta.curvy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2ED241BC24508B35007D19E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0710F7C37F1838C789ADCA90 /* Pods-curvy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = curvy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neu.edu.mbta.curvy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ED241A124508B33007D19E7 /* Build configuration list for PBXProject "curvy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED241B824508B35007D19E7 /* Debug */,
+				2ED241B924508B35007D19E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ED241BA24508B35007D19E7 /* Build configuration list for PBXNativeTarget "curvy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED241BB24508B35007D19E7 /* Debug */,
+				2ED241BC24508B35007D19E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ED2419E24508B33007D19E7 /* Project object */;
+}
